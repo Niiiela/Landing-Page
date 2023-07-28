@@ -1,0 +1,223 @@
+/*main settings*/
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body
+{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(88, 91, 255));
+    font-size: 100%;
+}
+/*end main settings*/
+
+/*header configuration*/
+.headerr
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.img-logo
+{
+    height: 90px;
+    margin-right: 550px;
+}
+
+.menu
+{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item
+{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 1px 1px blue;
+}
+
+.menu-item:hover
+{
+   color: black;
+}
+/*end header configuration*/
+
+/*main content*/
+.conteudo
+{
+    border-top: 0.1px solid #1303ff;
+}
+
+.conteudo-principal
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo-0
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-1
+{
+    font-family: 'Dai Banna SIL', serif;
+    font-weight: 500px;
+    font-size: 64px;
+    color: #1303ff;
+}
+
+.conteudo-2
+{
+    font-family: 'GFS Didot', serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #1303ff;
+    text-align: center;
+    padding: 30px;
+} 
+
+.conteudo-3
+{
+    border: none;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: 'GFS Didot', serif;
+    font-weight: 400px;
+    font-size: 24px;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+}
+
+.conteudo-3:hover
+{
+    background-color: white;
+    color: #1303ff;
+}
+
+.conteudo-imagem
+{
+    padding: 40px;
+    height: 460px;
+    border-radius: 15%;
+}
+/*end main content*/
+
+/*secondary content*/
+.conteudo-segundario
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 8px;
+
+}
+
+.conteudo-segundario-0
+{
+    font-family: 'GFS Didot', serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 1px 1px blue;
+    border-top: 0.5px solid  #1303ff;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.conteudo-segundario-1
+{
+    font-family: 'GFS Didot', serif;
+    font-weight: 300px;
+    font-size: 24px;
+    color: #1303ff;
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape
+{
+    padding: 15px;
+    text-align: center;
+    font-family: 'GFS Didot', serif;
+    font-size: 20px;
+     color: white;
+    text-shadow: 2px 1px 1px blue;
+    border-top: 0.1px solid #1303ff;
+    opacity: 0.7;
+}
+/*end secondary content*/
+
+/*Index Sobre*/
+.conteudo-text
+{
+    padding: 50px;
+    text-align: justify;
+    font-family: 'GFS Didot', serif;
+    font-size: 20px;
+}
+
+.conteudo-sobre-imagem
+{
+    height: 460px;
+    padding: 40px;
+    border-radius: 150px;
+    opacity: 0.7;
+}
+
+.conteudo-sobre-imagem:hover
+{
+    opacity: 1;
+}
+/*Fim sobre*/
+
+/*Tutoeial*/
+.tutorial
+{
+    padding: 20px;
+    font-family: 'GFS Didot', serif;
+    font-size: 29px;
+    color: blue;
+    text-shadow: 2px 2px 1px white;
+}
+
+.conteudo-imagem-tutorial
+{
+    -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+    mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+}
+
+.text 
+{
+    padding: 10px;
+    font-size: 25px;
+    color: blue;
+    font-weight: 500;
+}
+
+.list
+{
+    margin-left: 30px;
+    text-align: center;
+}
+.list-item
+{
+    font-family: 'GFS Didot', serif;
+    font-size: 19px;
+    text-align: justify;
+}
+
+
+
